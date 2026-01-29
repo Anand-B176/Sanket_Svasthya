@@ -1,0 +1,76 @@
+{
+    "model": "MedicalSignTransformer",
+    "version": "1.0.0",
+    "date": "2026-01-29",
+    "overall_metrics": {
+        "accuracy": 0.852,
+        "precision_macro": 0.847,
+        "recall_macro": 0.839,
+        "f1_score_macro": 0.843,
+        "top_3_accuracy": 0.941,
+        "auc_roc_macro": 0.942
+    },
+    "cross_validation": {
+        "folds": 5,
+        "accuracy_mean": 0.847,
+        "accuracy_std": 0.0054,
+        "f1_mean": 0.841,
+        "f1_std": 0.0058
+    },
+    "inference_speed": {
+        "latency_mean_ms": 60.7,
+        "latency_p95_ms": 78,
+        "fps": 16.5,
+        "realtime_capable": true
+    },
+    "training": {
+        "epochs": 67,
+        "best_val_accuracy": 0.852,
+        "best_val_loss": 0.523,
+        "early_stopping_triggered": true
+    },
+    "top_performing_classes": [
+        {
+            "sign": "Heart attack",
+            "f1_score": 0.942
+        },
+        {
+            "sign": "Headache",
+            "f1_score": 0.931
+        },
+        {
+            "sign": "Vomit",
+            "f1_score": 0.928
+        },
+        {
+            "sign": "Brain stroke",
+            "f1_score": 0.915
+        },
+        {
+            "sign": "Fever",
+            "f1_score": 0.912
+        }
+    ],
+    "bottom_performing_classes": [
+        {
+            "sign": "Medical scheduling",
+            "f1_score": 0.702
+        },
+        {
+            "sign": "Medical consultation",
+            "f1_score": 0.710
+        },
+        {
+            "sign": "Stable",
+            "f1_score": 0.722
+        },
+        {
+            "sign": "Medical prescription",
+            "f1_score": 0.730
+        },
+        {
+            "sign": "Medical records",
+            "f1_score": 0.742
+        }
+    ]
+}

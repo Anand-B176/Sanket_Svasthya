@@ -1,0 +1,51 @@
+# Dataset Statistics
+# Sanket-Svasthya Sign Language Recognition
+
+## Medical Signs Dataset
+- Total Classes: 54
+- Total Samples: 1,728
+- Samples per Class: 32
+- Performers: 16
+- Takes per Performer: 2
+- Train Samples: 1,382 (80%)
+- Test Samples: 346 (20%)
+
+## ISL Alphabet Dataset
+- Total Classes: 25
+- Total Samples: 625
+- Samples per Class: 25
+- Train Samples: 500 (80%)
+- Test Samples: 125 (20%)
+
+## Feature Dimensions
+- Pose Landmarks: 33 × 4 = 132
+- Face Landmarks: 468 × 3 = 1,404
+- Left Hand Landmarks: 21 × 3 = 63
+- Right Hand Landmarks: 21 × 3 = 63
+- Total Feature Dimension: 1,662
+
+## Sequence Information
+- Sequence Length: 30 frames
+- Total Input Shape: (30, 1662)
+
+## Data Augmentation
+- Gaussian Noise (σ=0.01): 1× multiplier
+- Gaussian Noise (σ=0.02): 1× multiplier
+- Total Augmentation: 3× original data
+
+## Class Distribution
+- Sign_01 (Depression): 32 samples
+- Sign_02 (Appendicitis): 32 samples
+- Sign_03 (Audiogram): 32 samples
+- Sign_04 (Audiometry): 32 samples
+- Sign_05 (Future): 32 samples
+... (all classes have equal distribution)
+- Sign_55 (Tonsillitis): 32 samples
+
+## Missing Classes
+- Sign_30 (To can): Not available in dataset
+
+## Split Strategy
+- Method: Stratified Train/Test Split
+- Random Seed: 42
+- Stratification: Preserved class distribution

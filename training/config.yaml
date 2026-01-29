@@ -1,0 +1,33 @@
+# Training Configuration - Sanket-Svasthya
+# Hyperparameters and settings for model training
+
+# Data settings
+data:
+  path: "../data/processed"
+  test_size: 0.2
+
+# Model settings
+model:
+  type: "medical"  # "medical" or "general"
+  sequence_length: 30
+  feature_dim: 1662
+  num_classes: 54
+
+# Training settings
+training:
+  epochs: 100
+  batch_size: 16
+  learning_rate: 0.0001
+  early_stopping_patience: 10
+  checkpoint_path: "../checkpoints/best_model.h5"
+  final_model_path: "../checkpoints/final_model.h5"
+  classes_path: "../checkpoints/classes.npy"
+  curves_path: "../results/training_curves.png"
+
+# Data augmentation
+augmentation:
+  enabled: true
+  noise_factors: [0.01, 0.02]
+
+# Reproducibility
+seed: 42
