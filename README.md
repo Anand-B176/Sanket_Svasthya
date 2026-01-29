@@ -163,8 +163,9 @@ SIGN2SOUND_SanketSvasthya/
 │
 ├── docs/                        # Documentation
 │   ├── architecture_diagram.png # Architecture
-│   ├── technical_report.pdf     # Full report
-│   └── system_pipeline.png      # Pipeline diagram
+│   ├── technical_report.md      # Full report
+│   ├── performance_analysis.md  # Performance metrics
+│   └── README.md                # Documentation index
 │
 └── tests/                       # Unit tests
     ├── test_preprocessing.py
@@ -286,7 +287,8 @@ pytest tests/test_model.py -v
 
 ## 📚 Documentation
 
-- [Technical Report](docs/technical_report.pdf)
+- [Technical Report](docs/technical_report.md)
+- [Performance Analysis](docs/performance_analysis.md)
 - [Architecture Diagram](docs/architecture_diagram.png)
 - [Dataset Documentation](data/README.md)
 - [Training Guide](training/README.md)
