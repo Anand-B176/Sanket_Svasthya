@@ -201,7 +201,7 @@ recognizer.run_realtime()
 
 ---
 
-## 🏋️ Training
+##  Training
 
 ### Prepare Data
 ```bash
