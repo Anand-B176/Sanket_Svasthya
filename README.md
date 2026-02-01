@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 **Sanket-Svasthya** is a real-time sign language recognition system specifically designed for healthcare environments. It bridges the communication gap between hearing-impaired patients and medical staff through:
 
@@ -33,20 +33,20 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---------|-------------|
-| 🏥 **Medical Mode** | 54 healthcare-specific signs |
-| 🗣️ **General Mode** | 25 ISL alphabet signs |
-| 🚨 **Emergency Alerts** | Instant notification for critical signs |
-| 🔊 **Text-to-Speech** | Audio feedback for patients |
-| 👨‍⚕️ **Staff Panel** | Password-protected settings |
-| ⚡ **Real-Time** | 15-20 FPS, <100ms latency |
+| **Medical Mode** | 54 healthcare-specific signs |
+| **General Mode** | 25 ISL alphabet signs |
+| **Emergency Alerts** | Instant notification for critical signs |
+| **Text-to-Speech** | Audio feedback for patients |
+| **Staff Panel** | Password-protected settings |
+| **Real-Time** | 15-20 FPS, <100ms latency |
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run Real-Time Demo
 ```bash
@@ -102,7 +102,7 @@ python training/train.py --config training/config.yaml
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 SIGN2SOUND_SanketSvasthya/
@@ -175,7 +175,7 @@ SIGN2SOUND_SanketSvasthya/
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Medical Mode (54 Signs)
 ```python
@@ -224,7 +224,7 @@ python training/evaluate.py --model checkpoints/best_model.h5
 
 ---
 
-## 📊 Results
+## Results
 
 ### Overall Performance
 | Metric | Medical Model | General Model |
@@ -239,7 +239,7 @@ python training/evaluate.py --model checkpoints/best_model.h5
 |--------|-------|
 | Latency | 60.7 ms |
 | FPS | 16.5 |
-| Real-Time | ✅ Yes |
+| Real-Time |  Yes |
 
 ### Top Performing Signs
 | Sign | F1-Score |
@@ -285,7 +285,7 @@ pytest tests/test_model.py -v
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 - [Technical Report](docs/technical_report.md)
 - [Performance Analysis](docs/performance_analysis.md)
@@ -296,7 +296,7 @@ pytest tests/test_model.py -v
 
 ---
 
-## 🔄 Reproducibility
+## Reproducibility
 
 ### Fixed Random Seeds
 ```python
@@ -321,38 +321,31 @@ pip install -r requirements.txt
 
 ---
 
-## 👥 Team
+##  Team
 
 **Team Sanket-Svasthya**
 
 | Role | Member |
 |------|--------|
-| Lead Developer | [Your Name] |
-| ML Engineer | [Team Member] |
-| UI/UX Designer | [Team Member] |
+| Lead Developer | Anand Babu |
+| ML Engineer | Edwin K Jayesh|
+| UI/UX Designer | Jacob Rajeev |
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - IEEE Sign2Sound Competition
 - MediaPipe Team (Google)
 - TensorFlow Team
 - Dataset Providers
 
----
-
-## 📞 Contact
-
-- **Email:** your.email@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
-- **LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)
 
 ---
 
