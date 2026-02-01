@@ -1,4 +1,4 @@
-# 🏥 SANKET-SVASTHYA (Sign2Sound)
+# SANKET-SVASTHYA (Sign2Sound)
 ## Real-Time Sign Language Recognition for Healthcare Communication
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
